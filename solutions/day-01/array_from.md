@@ -20,7 +20,7 @@
 * 类数组转换成实际数组
 
 eg:
-```
+```JavaScript
   const b = Array.from({length:5},(v,i)=>i)
   console.log(b);  // [0,1,2,3,4]
 ```
