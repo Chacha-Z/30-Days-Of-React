@@ -1,0 +1,55 @@
+#user {
+  background-color: #eee;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 0px;
+  height: 100%;
+
+
+  header {
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 100px;
+    }
+
+    .name {
+      font-size: 110%;
+      font-weight: bolder;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .addr {
+      font-size: 90%;
+    }
+  }
+
+  .skills {
+    label {
+      display: block;
+      font-weight: bolder;
+      margin: 5px 0;
+    }
+
+    span {
+      display: inline-block;
+      padding: 5px 8px;
+      background-color: green;
+      color: white;
+      border-radius: 3px;
+      margin: 5px;
+      font-size: 90%;
+    }
+  }
+
+  footer {
+    margin: 20px 0;
+  }
+
+  svg {
+    width: 18px;
+    height:18px;
+    vertical-align: middle;
+  }
+}

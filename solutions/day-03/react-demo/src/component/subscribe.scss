@@ -1,0 +1,40 @@
+#subscribe {
+  width: 98vw;
+  margin: 1vw;
+  border-radius: 15px;
+  background-color: lightblue;
+  text-align: center;
+  box-sizing: border-box; 
+  border: 1px solid transparent; // 清除header 的margin-top溢出
+
+  .header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+  }
+
+  .disc {
+    margin: 30px;
+  }
+
+  .fields {
+    input {
+      display: inline-block;
+      padding: 10px;
+      color: lightgray;
+      margin: 0 10px;
+      border-radius: 5px;
+      border: 0px;
+    }
+  }
+
+  .submit {
+    display: block;
+    margin: 30px auto;
+    width: 15%;
+    padding: 15px 10px;
+    border-radius: 5px;
+    background-color: lightcoral;
+    border: 0px;
+    color: white;
+  }
+}
